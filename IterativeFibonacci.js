@@ -1,4 +1,7 @@
 function fibs(n) {
+  if (n <= 0) return [];
+  if (n === 1) return [0];
+
   let current = 1;
   let previous = 0;
 
