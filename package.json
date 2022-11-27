@@ -1,0 +1,23 @@
+{
+  "name": "top-recursion",
+  "version": "1.0.0",
+  "description": "The sixth project in the JavaScript course of The Odin Project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zekumoru/top-recursion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zekumoru/top-recursion/issues"
+  },
+  "homepage": "https://github.com/Zekumoru/top-recursion#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
