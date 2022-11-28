@@ -12,4 +12,12 @@ function primeFactors(n, divisor = 2) {
   return primeFactors(n, divisor + 1);
 }
 
-console.log(primeFactors(13195));
+function largestPrimeFactor(n, divisor = 2) {
+  if (n <= 2) return divisor - 1;
+  if (n % divisor === 0) return largestPrimeFactor(Math.floor(n / divisor), divisor + 1);
+  return largestPrimeFactor(n, divisor + 1);
+}
+
+const input = 600851475143;
+console.log(primeFactors(input));
+console.log(largestPrimeFactor(input));
