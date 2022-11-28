@@ -22,6 +22,7 @@
     "max-len": "off",
     "no-continue": "off",
     "no-console": "off",
-    "no-confusing-arrow": "off"
+    "no-confusing-arrow": "off",
+    "brace-style": ["off", "stroustrup"]
   }
 }
