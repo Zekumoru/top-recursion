@@ -1,22 +1,24 @@
 {
-  "name": "top-recursion",
+  "name": "@zekumoru-dev/merge-sort",
   "version": "1.0.0",
   "description": "The sixth project in the JavaScript course of The Odin Project.",
   "main": "index.js",
-  "scripts": {
-    "start": "nodemon"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Zekumoru/top-recursion.git"
   },
-  "keywords": [],
+  "keywords": [
+    "merge-sort"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Zekumoru/top-recursion/issues"
   },
   "homepage": "https://github.com/Zekumoru/top-recursion#readme",
+  "scripts": {
+    "start": "nodemon"
+  },
   "devDependencies": {
     "eslint": "^8.28.0",
     "eslint-config-airbnb-base": "^15.0.0",
